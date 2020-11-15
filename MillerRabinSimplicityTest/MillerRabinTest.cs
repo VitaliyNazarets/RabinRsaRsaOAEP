@@ -5,7 +5,7 @@ namespace MillerRabinSimplicityTest
 {
 	public static class MillerRabinTest
 	{
-		public static BigInteger Two = new BigInteger(2);
+		private static BigInteger Two = new BigInteger(2);
 		public static bool IsPrime(BigInteger n, BigInteger k)
 		{
 			if (n <= 1)

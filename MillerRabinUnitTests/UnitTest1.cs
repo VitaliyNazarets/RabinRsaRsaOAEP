@@ -51,7 +51,6 @@ namespace MillerRabinUnitTests
 		{
 			var notPrime1 = new BigInteger(6732366601); // 82051 * 82051
 			Assert.False(MillerRabinTest.IsPrime(notPrime1, k));
-
 		}
 		[Fact]
 		public void BigNotPrime2()
